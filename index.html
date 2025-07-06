@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Compare flexible pricing plans — Basic, Pro, and Premium — to find the right fit for your business needs. Includes full features, support, and scalable options." />
+    <meta name="keywords"
+        content="pricing plans, basic, pro, premium, monthly subscription, SaaS, business plans, affordable pricing" />
+    <meta name="author" content="Stephen William G. De Jesus" />
+
+    <title>Pricing Plans | Choose the Right Plan for You</title>
+
+    <!-- Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <!-- Tailwind Stylesheet -->
+    <link rel="stylesheet" href="output.css" />
+</head>
+
+<body class="bg-gray-100">
+    <main id="main-content">
+        <!-- Pricing Section -->
+        <section class="pricing flex flex-col jusitfy-center items-center gap-20 py-20 px-15"
+            aria-labelledby="pricing-heading" role="region">
+            <header class="pricing-header flex flex-col justify-center items-center gap-3">
+                <h1 id="pricing-heading" class="pricing-title text-4xl font-bold text-gray-800 text-center">Choose
+                    the Right Plan for Your Needs</h1>
+                <p class="pricing-subtitle text-xl text-gray-600 font-medium text-center">Explore flexible options that
+                    scale with
+                    your goals. Every plan includes full access to our core features and reliable support.</p>
+            </header>
+
+            <!-- Plan Cards -->
+            <div class="pricing-grid grid grid-rows-3 grid-cols-1 justify-items-center gap-x-10 gap-y-15 w-full max-w-[64rem] lg:grid-rows-1 lg:grid-cols-3" role="list">
+
+                <!-- Basic Plan -->
+                <article
+                    class="pricing-card pricing-card-basic max-w-[30rem] bg-white w-full p-9 shadow-lg rounded-2xl flex flex-col justify-around items-center gap-7 border border-gray-300 hover:scale-110 transition-transform duration-300
+"
+                    role="listitem" aria-labelledby="plan-basic-title">
+                    <header class="pricing-card-header flex flex-col justify-center items-center gap-3">
+                        <h2 id="plan-basic-title" class="pricing-card-title text-gray-800 text-2xl font-bold">Basic</h2>
+                        <p class="pricing-card-price">
+                            <span class="pricing-card-amount text-gray-800 font-bold text-5xl">$9</span>
+                            <span class="pricing-card-period text-lg text-gray-600 font-medium">/month</span>
+                        </p>
+                        <p id="plan-basic-desc" class="pricing-card-description text-[16px] font-medium text-gray-600">Perfect for individuals getting started</p>
+                    </header>
+                    <ul class="pricing-features w-full flex flex-col gap-3 text-gray-700 text-lg font-medium"
+                        aria-label="Basic plan features">
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> Up to 5
+                            projects
+                        </li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> 10GB
+                            storage</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> Email
+                            support</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> Basic
+                            analytics</li>
+                    </ul>
+                    <button
+                        class="pricing-button text-lg font-bold w-full bg-blue-500 text-white py-1.5 px-3 rounded-lg hover:bg-blue-600 transition cursor-pointer"
+                        aria-label="Get started with Basic plan">Get Started</button>
+                </article>
+
+                <!-- Pro Plan -->
+                <article
+                    class="pricing-card pricing-card-pro max-w-[30rem] relative bg-white w-full p-9 shadow-lg rounded-2xl flex flex-col justify-around items-center gap-7 border-2 border-blue-500 hover:scale-110 transition-transform duration-300
+"
+                    role="listitem" aria-labelledby="plan-pro-title">
+                    <div class="pricing-badge absolute z-10 -top-4 bg-blue-500 text-white font-semibold px-4 py-1.5 rounded-2xl" role="note" aria-label="Most popular plan">Most Popular</div>
+                    <header class="pricing-card-header flex flex-col justify-center items-center gap-3">
+                        <h2 id="plan-pro-title" class="pricing-card-title text-gray-800 text-2xl font-bold">Pro</h2>
+                        <p class="pricing-card-price">
+                            <span class="pricing-card-amount text-gray-800 font-bold text-5xl">$29</span>
+                            <span  id="plan-pro-desc" class="pricing-card-description pricing-card-period text-lg text-gray-600 font-medium">/month</span>
+                        </p>
+                        <p class="text-[16px] font-medium text-gray-600">Ideal for growing businesses</p>
+                    </header>
+                    <ul class="pricing-features w-full flex flex-col gap-3 text-gray-700 text-lg font-medium"
+                        aria-label="Pro plan features">
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span>
+                            Unlimited projects</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> 100GB
+                            storage</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span>
+                            Priority support</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span>
+                            Advanced analytics</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> Team
+                            collaboration</li>
+                    </ul>
+                    <button
+                        class="pricing-button text-lg font-bold w-full bg-blue-500 text-white py-1.5 px-3 rounded-lg hover:bg-blue-600 transition cursor-pointer"
+                        aria-label="Get started with Pro plan">Get Started</button>
+                </article>
+
+                <!-- Premium Plan -->
+                <article
+                    class="pricing-card pricing-card-premium max-w-[30rem] bg-white w-full p-9 shadow-lg rounded-2xl flex flex-col justify-around items-center gap-7 hover:scale-110 transition-transform duration-300
+"
+                    role="listitem" aria-labelledby="plan-premium-title">
+                    <header class="pricing-card-header flex flex-col justify-center items-center gap-3">
+                        <h2 id="plan-premium-title" class="pricing-card-title text-gray-800 text-2xl font-bold">Premium
+                        </h2>
+                        <p class="pricing-card-price">
+                            <span class="pricing-card-amount text-gray-800 font-bold text-5xl">$99</span>
+                            <span class="pricing-card-period text-lg text-gray-600 font-medium">/month</span>
+                        </p>
+                        <p id="plan-premium-desc" class="pricing-card-description text-[16px] font-medium text-gray-600">For large teams and
+                            enterprises</p>
+                    </header>
+                    <ul class="pricing-features w-full flex flex-col gap-3 text-gray-700 text-lg font-medium"
+                        aria-label="Premium plan features">
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span>
+                            Unlimited projects</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> 1TB
+                            storage</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> 24/7
+                            phone support</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span> Custom
+                            integrations</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span>
+                            Advanced security</li>
+                        <li class="w-full flex justify-start items-center gap-2"><span
+                                class="material-symbols-outlined text-green-500" aria-hidden="true">check</span>
+                            Dedicated account manager</li>
+                    </ul>
+                    <button
+                        class="pricing-button text-lg font-bold w-full bg-blue-500 text-white py-1.5 px-3 rounded-lg hover:bg-blue-600 transition cursor-pointer"
+                        aria-label="Get started with Premium plan">Get Started</button>
+                </article>
+
+            </div>
+
+            <!-- Footer Summary -->
+            <footer class="pricing-footer flex flex-col justif-center items-center gap-3" role="contentinfo">
+                <p class="pricing-guarantee text-lg font-medium text-gray-700 text-center">All plans include a 30-day money-back guarantee.</p>
+                <p class="pricing-guarantee-list text-gray-600 text-center font-medium">• No setup fees • Cancel anytime • Upgrade or downgrade at any time</p>
+            </footer>
+        </section>
+    </main>
+</body>
+
+</html>
